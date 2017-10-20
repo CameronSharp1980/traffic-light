@@ -1,0 +1,60 @@
+body{
+/* width: 50%; */
+background-color: #000000;
+}
+.main-body{
+    width: 40%;
+    height: 750px;
+    margin: auto;
+    background-color: #333333;
+
+}
+.light-bar{
+    width: 15%;
+    background-color: #444444;
+    margin: auto;
+    height: 150px;
+}
+.light-frame{
+    width: 45%;
+    background-color: #444444;
+    margin: auto;
+    height: 600px;
+    position: relative;
+}
+.lights div{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    margin: auto auto;
+    margin-bottom: 2em;
+    position: absolute;
+    left: 23%;
+    background-image: url("https://cdn-enterprise.discourse.org/mcneel/uploads/default/original/3X/1/4/143029f230d1666bf71ac9a8bff00caa1c6c916f.png");
+    background-size: 150px;
+}
+.red-light{
+    background-color: rgba(255, 0, 0, 0.5);
+    top: 20px;
+
+}
+.red-light:hover{
+    background-color: red;
+    box-shadow: 0 0 50px rgb(247, 73, 73);
+}
+.yellow-light{
+    background-color: rgba(255, 255, 0, 0.5);
+    top: 210px;
+}
+.yellow-light:hover{
+    background-color: yellow;
+    box-shadow: 0 0 50px rgb(245, 245, 64);
+}
+.green-light{
+    background-color: rgba(0, 128, 0, 0.5);
+    top: 400px;
+}
+.green-light:hover{
+    background-color: green;
+    box-shadow: 0 0 50px rgb(71, 247, 71);
+}
